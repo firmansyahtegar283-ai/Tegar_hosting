@@ -1,0 +1,45 @@
+/* Desain ala Feldreem aesthetic lucu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #ffb6c1, #ffd6e0, #f6c4ff, #b8e1ff);
+  background-size: 400% 400%;
+  animation: bg 10s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes bg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.4em;
+  min-height: 2em;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 1em;
+  opacity: 0.9;
+}
